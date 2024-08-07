@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.flexRow{
+  display:flex;
+  flex-direction: row;
+}
+
+.flexColumn{
+  display:flex;
+  flex-direction: column;
+}
+.flexCenter{
+  justify-content: center ;
+  align-items: center;
+}
+.flexSpaceBetween{
+  justify-content: space-between;
+}
+.flexSpaceAround{
+  justify-content: space-around;
+}
+/**/
+.bgPrimary{
+  background-color: #068353;
+}
+.bgSecondary{
+  background-color: #f7f7f7;
+}
+.bgWhite{
+  background-color: #f7f7f7;
+}
+.colorWhite{
+  background-color: #f7f7f7;
+}
+.colorPrimary{
+  background-color: #068353;
+}
+.colorSecondary{
+  background-color: #f7f7f7;
+}
+
+/* text */
+.textCenter{
+text-align: center;
+}
+.descriptionText{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+}
+.textTitle{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
